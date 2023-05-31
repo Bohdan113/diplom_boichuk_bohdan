@@ -103,6 +103,7 @@ class GlobalCubit extends Cubit<GlobalState> with NavigateMixin {
         androidWillPauseWhenDucked: true,
       ),
     );
+
   }
 
   Directory? dir;
